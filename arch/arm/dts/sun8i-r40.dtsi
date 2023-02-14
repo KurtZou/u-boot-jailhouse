@@ -404,6 +404,11 @@
 				pins = "PG8", "PG9";
 				function = "uart3";
 			};
+			
+            uart4_pg_pins: uart4-pg-pins {
+                pins = "PG10", "PG11";
+                function = "uart4";
+            };
 		};
 
 		wdt: watchdog@1c20c90 {
